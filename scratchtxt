@@ -1,0 +1,3 @@
+ogr2ogr -f "ESRI Shapefile" wgs84.shp parcels.shp -s_srs EPSG:102737 -t_srs EPSG:4326
+
+gdalsrsinfo parcels.prj
